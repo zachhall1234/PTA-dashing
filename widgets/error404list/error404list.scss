@@ -1,0 +1,28 @@
+.header {
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+}
+
+.error404 {
+  font-size: 12px;
+  text-align: left;
+
+  td {
+    vertical-align: top;
+  }
+}
+
+.error404:nth-child(even) {
+  background-color: darkorange;
+}
+
+.error404:nth-child(odd) {
+  background-color: darken(darkorange, 10%);
+}
+
+.error_count {
+  font-weight: bold;
+  padding-right: 5px;
+  text-align: center;
+}

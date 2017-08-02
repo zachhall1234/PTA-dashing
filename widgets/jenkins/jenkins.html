@@ -1,0 +1,9 @@
+<!--<img src="/assets/images/jenkins.jpeg"/>-->
+<ul class="jobs">
+    <li class="status-failed" data-foreach-job="failingJobs" data-bind-data-state="job.state">
+        <span data-source="job.name" data-addclass-failed-building='job.lastBuild.building'></span>
+    </li>
+    <li class="status-passed" data-foreach-job="passingJobs" data-bind-data-state="job.state">
+        <span data-source="job.description" data-addclass-passed-building='job.lastBuild.building'></span>
+    </li>
+</ul>

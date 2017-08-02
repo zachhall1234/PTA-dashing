@@ -1,0 +1,22 @@
+.warn {
+  font-size: 12px;
+  text-align: left;
+
+  td {
+    vertical-align: top;
+  }
+}
+
+.warn:nth-child(even) {
+  background-color: darkorange;
+}
+
+.warn:nth-child(odd) {
+  background-color: darken(darkorange, 10%);
+}
+
+.warn_count {
+  font-weight: bold;
+  padding-right: 5px;
+  text-align: center;
+}

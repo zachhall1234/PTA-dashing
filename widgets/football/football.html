@@ -1,0 +1,16 @@
+<h1 class="title" data-bind="title"></h1>
+
+<table>
+  <tr data-foreach-item="items">
+    <td><img width="20px" data-bind-src="item.homeCrest"></td>
+    <td data-bind="item.homeTeam"></td>
+    <td data-bind="item.homeGoals"></td>
+    <td>-</td>
+    <td data-bind="item.awayGoals"></td>
+    <td data-bind="item.awayTeam"></td>
+    <td><img width="20px" data-bind-src="item.awayCrest"></td>
+  </tr>
+</table>
+
+<p class="more-info" data-bind="moreinfo"></p>
+<p class="updated-at" data-bind="updatedAtMessage"></p>

@@ -1,0 +1,1 @@
+class Dashing.Counterslist extends Dashing.Widget

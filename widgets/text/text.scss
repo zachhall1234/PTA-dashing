@@ -1,0 +1,54 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #BFC1C3;
+
+$title-color:       rgba(255, 255, 255, 0.7);
+$moreinfo-color:    rgba(255, 255, 255, 0.7);
+
+// ----------------------------------------------------------------------------
+// Widget-text styles
+// ----------------------------------------------------------------------------
+.widget-text {
+  
+
+  background-color: $background-color;
+
+  .title {
+    font-weight: bolder;
+    color: white;
+    font-size: 30px;
+  }
+
+  .more-info {
+    color: $moreinfo-color;
+  }
+
+  .updated-at {
+    color: rgba(0, 0, 0, 0.3);
+  }
+
+  &.large h3 {
+    font-size: 65px;
+  }
+}
+
+h4 {
+    font-size: 24px;
+}
+
+.widget-text.status-success {
+  background-color: #008000;
+}
+
+.widget-text.status-failure {
+  background-color: #800000;
+}
+
+.widget-text.status-aborted {
+  background-color: #333333;
+}
+
+.widget-text.status-building {
+  background-color: #cc6600;
+}

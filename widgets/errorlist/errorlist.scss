@@ -1,0 +1,22 @@
+.error {
+  font-size: 12px;
+  text-align: left;
+
+  td {
+    vertical-align: top;
+  }
+}
+
+.error:nth-child(even) {
+  background-color: darkred;
+}
+
+.error:nth-child(odd) {
+  background-color: darken(darkred, 10%);
+}
+
+.error_count {
+  font-weight: bold;
+  padding-right: 5px;
+  text-align: center;
+}

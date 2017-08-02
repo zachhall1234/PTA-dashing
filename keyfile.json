@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "dashing-widget-1336",
+  "private_key_id": "fccab27efcf1ce35138b856fb92332c99a7b5c9e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDS5s0wNqhfQjE2\nninXTct929PXSDJjrHRif+/0XRQExouME35tilJhr2aAxSMFojBnxsxLD8an6Iwm\nSfV6uiuWx1FoRf3QzK91g+shvHYCsiiwCSPadOwmrx+ykaCLnTBDdqQ1+JIxdAFv\naQ1axpEJWPaObpaT3ZU9Y0wSqcAJsMcT4ah/818/v7MeGfy6fWxs+oUmnAhuUoQp\n24YguHwNCbbRAUe/aW5CFdOYxlk6D2YGr/CyfffGdblYqVGjHAnUH7lgQBH4lRXA\nyrYc3utE2pHwrPBpXFYHwAeKmuobAjHvrdNklDC3HkyTQ+WFbpvwiAfur12GRcql\nC0Aca1YVAgMBAAECggEAft2Fqq4GZJ8NuZw08SYD9ebJrOPqI9k2fZYWQvnGtAS3\nJwEG+V/OpKJ9V5K+uYHR+ms0syZ/Srvxqoqs1zGsTNwDVWVdBEBMf7VmOPoERyTi\notosrhnNgIux1poRaEqbIMn6h9jKIGN3BYy9EtEFqAjS7+UIQVR2lOHpfgSM14Ze\njKygCmVcUpTLz5X5oxbA5LMcYAQKg97ULh2K5wmiV3qgcqt2sLMhKv5l42GgHb6j\ndaAAWJhdTOk8or33J0u+N6yAYw83Af4HLu6rkHRuM5cRmKhd6UdGHRlb6zlMFLsD\n4rB2GLAT1eBkUOWrmFfpZubCeBnRDxEY0Z6qJXW2dQKBgQD1zuwyUNjwxxIHABmA\nTVKKwfQc9GK0QlYnOXt2GT3dCEJoocgjZET4j7jE6wv8pKvZhn9uN+BmAHFHO6c+\n9Ipxj8VGRY5Vg7jU3bJMQdLGRx8XcDMHVffUddjGQU57fXE8BioN6KMrDIwMDdq4\nwskkQu3n5P7NABtVuVpHVStjIwKBgQDbpV6GTRhMBDALEK9M+7bLVVj16CDiF3Gv\nEj9/KiUsy1RIkm8gyI/cBEcJvq+k1GlaVDRx7eFK6AIcaPREotKFjK6A2QUWpvjH\nbgJJTVRgNpom29EBoXDB1DG0cPk2theb/whSVl/dnsBXxemd0KgKZ2KLHOcSRl76\ncFqWhzxxZwKBgBkN9lVKmFIyeEvuXqsNNpSeIFuzLTxiZpWo7kSjXgLhjKNNmjDB\nT6ZmP9cSfi5KOpn5c5Owblb3RJSWJ/3qvxHELb9z54Yf3v8TedD8BJfhN/ITpZ/h\ny1kEigvrLCy6JIiRuEeipr8EkGHKJ7kdYZMon0c7uBz9HcwnEGSk8b8xAoGBAIN4\nzMeexfhaWVeGOSffU18KSyGGPIiYd9fPGGrJk07oth5qaFI7OsD7XnoaxY/oBNeo\np2u6c6wei4Tt3ahnvZNqzdkaDc2tTCQzWPL/co3UoRi5YrWTKKccmFPle4agICmj\n0htW0DMbnw3qzRdFmhAAKiASwM1Tie5l6hNIB4npAoGAN9+Hk4BtrfhHSX6AsGs7\nIzQbHCQSyYAPtN+5y5Grj6haSxXKnj6HiSFngmbf38uqxB3/P6H/o1za+RZkBJcB\n2ceWkHpDjGjBOWRA+fXZO2FssJhIbx6RFcWuvgH1YrUfHvmUhfS7Mo1wuycBPyuW\n1H6tqMDIFL4QorL9bnprPqo=\n-----END PRIVATE KEY-----\n",
+  "client_email": "dashinguser@dashing-widget-1336.iam.gserviceaccount.com",
+  "client_id": "113994847581677844699",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dashinguser%40dashing-widget-1336.iam.gserviceaccount.com"
+}

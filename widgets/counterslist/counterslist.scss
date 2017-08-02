@@ -1,0 +1,28 @@
+.counters {
+  font-size: 12px;
+  text-align: left;
+
+  td {
+    vertical-align: top;
+  }
+}
+
+.title {
+    font-weight: bolder;
+    color: white;
+    font-size: 18px;
+  }
+
+.counters:nth-child(even) {
+  background-color: darkblue;
+}
+
+.counters:nth-child(odd) {
+  background-color: darken(darkblue, 10%);
+}
+
+.tax_count {
+  font-weight: bold;
+  padding-right: 5px;
+  text-align: center;
+}

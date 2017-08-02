@@ -1,0 +1,101 @@
+<script type='text/javascript'>
+$(function() {
+  // These settings override the defaults set in application.coffee. You can do this on a per dashboard basis.
+  // Dashing.gridsterLayout('[{"col":2,"row":1},{"col":1,"row":1},{"col":3,"row":1},{"col":2,"row":2},{"col":3,"row":2},{"col":1,"row":2},{"col":5,"row":1},{"col":4,"row":2},{"col":2,"row":3}]')
+  Dashing.widget_base_dimensions = [307, 257]
+  Dashing.numColumns = 6
+});
+</script>
+
+<% content_for :title do %>PTA Monitoring Dashboard<% end %>
+<div class="gridster">
+    <ul>
+
+<!-- ######## ROW 1 -->
+
+        <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+           <div data-id="pertax-frontend-releases" data-view="Text" data-title="PERTAX FRONTEND RELEASES" class="turquoise"></div>
+        </li>
+
+        <li data-row="1" data-col="2" data-sizex="1" data-sizey="1">
+            <div data-id="fandf-frontend-releases" data-view="Text" data-title="FANDF FRONTEND RELEASES" class="turquoise"></div>
+        </li>
+
+	      <li data-row="1" data-col="3" data-sizex="2" data-sizey="2">
+           <div data-view="Clock"></div>
+        </li>
+
+        <li data-row="1" data-col="5" data-sizex="1" data-sizey="1">
+           <div data-id="jenkins-pertax-frontend" data-view="Text" data-title="PERTAX FRONTEND"></div>
+        </li>
+
+        <li data-row="1" data-col="6" data-sizex="1" data-sizey="1">
+             <div data-id="jenkins-pertax-acceptance-tests" data-view="Text" data-title="PERTAX ACCEPTANCE TESTS"></div>
+        </li>
+
+
+
+<!-- ######## ROW 2 -->
+        <!--Releases-->
+        <li data-row="2" data-col="1" data-sizex="1" data-sizey="1">
+            <div data-id="citizen-details-releases" data-view="Text" data-title="CITIZEN DETAILS RELEASES" class="turquoise"></div>
+        </li>
+        <li data-row="2" data-col="2" data-sizex="1" data-sizey="1">
+           <div data-id="feedback-survey-frontend-releases" data-view="Text" data-title="FEEDBACK SURVEY RELEASES" class="turquoise"></div>
+        </li>
+        
+   
+      
+         <!--Jenkins builds-->
+        <li data-row="2" data-col="5" data-sizex="1" data-sizey="1">
+            <div data-id="jenkins-fandf-acceptance-tests" data-view="Text" data-title="FANDF ACCEPTANCE TESTS"></div>
+        </li>
+        <li data-row="2" data-col="6" data-sizex="1" data-sizey="1">
+             <div data-id="jenkins-fandf-frontend" data-view="Text" data-title="FANDF FRONTEND"></div>
+        </li>
+
+
+        <!-- ######## ROW 3 -->
+        <li data-row="3" data-col="1" data-sizex="1" data-sizey="1">
+            <div data-id="session_count_total" data-view="Number" data-title="NUMBER OF SESSIONS"class="turquoise"></div>
+        </li>
+        
+        <li data-row="3" data-col="2" data-sizex="1" data-sizey="1">
+            <div data-id="visitor_count_real_time" data-view="Number" data-title="ACTIVE USERS"class="turquoise"></div>
+        </li>
+        
+     
+        <li data-row="3" data-col="5" data-sizex="1" data-sizey="1">
+            <div data-id="percentage" data-view="Number" data-title="PERCENTAGE BOUNCE RATE" class="turquoise"></div>
+        </li>
+
+        <li data-row="3" data-col="6" data-sizex="1" data-sizey="1">
+            <div data-id="percentage_new_users" data-view="Number" data-title="PERCENTAGE NEW USERS" class="turquoise"></div>
+        </li>
+
+
+     <!-- ######## ROW 4 -->
+
+        <li data-row="4" data-col="1" data-sizex="1" data-sizey="1">
+            <div data-id="TotalAddressChange" data-view="Number" data-title="TOTAL ADDRESS CHANGES" class="turquoise"></div>
+        </li>
+
+
+        <li data-row="4" data-col="2" data-sizex="1" data-sizey="1">
+            <div data-id="deskProClick" data-view="Number" data-title="TOTAL DESKPRO CLICKS" class="turquoise"></div>
+        </li>
+
+
+        <li data-row="3" data-col="3" data-sizex="2" data-sizey="2"> 
+          <div data-id="image" data-view="Image" data-title="Image" data-image="/bossman.png"></div>
+        </li>
+        
+
+     <li data-row="4" data-col="5" data-sizex="2" data-sizey="1">
+         <div data-id="pull_requests" data-view="PullRequests" data-title="PULL REQUESTS" class="turquoise"></div>
+     </li>
+     
+
+    </ul>
+</div>
+
