@@ -1,8 +1,4 @@
-# P800 Payments dashboard.
-
-Forked from NISP and modified for the Marriage Allowance scrum team and then again for the P800 payments microservice.
-NISP board can be found at https://github.tools.tax.service.gov.uk/DDCN/nisp-dashboard.
-Marriage Allowance board can be found at https://github.tools.tax.service.gov.uk/DDCN/tamc-dashboard.
+# PTA dashboard.
 
 ## Setup
 To run the dashboard, copy the `config.yml.example` file to `config.yml` and enter your JIRA log in credentials and GA Profile ID.
