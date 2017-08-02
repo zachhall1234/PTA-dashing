@@ -111,7 +111,7 @@ def update_analytics()
        
     ###Total Address changes
 
-    totalAddressChanges = analytics.get_ga_data(id = "ga:#{settings.gaprofileid}", start_data="today", end_date="today", metrics = "ga:goal19Completions")
+    totalAddressChanges = analytics.get_ga_data(id = "ga:#{settings.gaprofileid}", start_data="2015-01-01", end_date="today", metrics = "ga:goal19Completions")
        
     totalAddressChangesCount = 0
     if totalAddressChanges.total_results > 0
