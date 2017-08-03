@@ -111,15 +111,25 @@ def update_analytics()
        
     ###Total Address changes
 
-    totalAddressChanges = analytics.get_ga_data(id = "ga:#{settings.gaprofileid}", start_data="2015-01-01", end_date="today", metrics = "ga:goal19Completions")
+    totalAddressChanges = analytics.get_ga_data(id = "ga:#{settings.gaprofileid}", start_data="today", end_date="today", metrics = "ga:goal19Completions")
        
     totalAddressChangesCount = 0
     if totalAddressChanges.total_results > 0
     totalAddressChangesCount= totalAddressChanges.rows[0][0]
     end    
     send_event('TotalAddressChange', {current: totalAddressChangesCount.to_i, status: 'fine'})
+    
+    ###Total Address changes yesterday
 
-    ###DeskProButton Clicks
+    totalAddressChanges = analytics.get_ga_data(id = "ga:#{settings.gaprofileid}", start_data="yesterday", end_date="yesterday", metrics = "ga:goal19Completions")
+       
+    totalAddressChangesCount = 0
+    if totalAddressChanges.total_results > 0
+    totalAddressChangesCount= totalAddressChanges.rows[0][0]
+    end    
+    send_event('TotalAddressChangeYesterday', {current: totalAddressChangesCount.to_i, status: 'fine'})
+
+    ###DeskProButton Clicks today
 
     deskProClicks = analytics.get_ga_data(id = "ga:#{settings.gaprofileid}", start_data="today", end_date="today", metrics = "ga:uniqueEvents")
 
@@ -128,6 +138,15 @@ def update_analytics()
       deskProClicksTotal = deskProClicks.rows[0][0]
     end
     send_event('deskProClick', {current: deskProClicksTotal.to_i, status: 'fine'})
+     ###DeskProButton Clicks yesterday
+
+    deskProClicks = analytics.get_ga_data(id = "ga:#{settings.gaprofileid}", start_data="yesterday", end_date="yesterday", metrics = "ga:uniqueEvents")
+
+    deskProClicksTotal = 0
+    if deskProClicks.total_results > 0
+      deskProClicksTotal = deskProClicks.rows[0][0]
+    end
+    send_event('deskProClickYesterday', {current: deskProClicksTotal.to_i, status: 'fine'})
     
     ###Session average duration
        
