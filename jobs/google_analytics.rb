@@ -131,7 +131,7 @@ def update_analytics()
 
     ###DeskProButton Clicks today
 
-    deskProClicks = analytics.get_ga_data(id = "ga:#{settings.gaprofileid}", start_data="today", end_date="today", metrics = "ga:uniqueEvents")
+    deskProClicks = analytics.get_ga_data(id = "ga:#{settings.gaprofileid}", start_data="today", end_date="today", metrics = "ga:uniqueEvents", filters: "ga:eventLabel==Get help with this page Submit")
 
     deskProClicksTotal = 0
     if deskProClicks.total_results > 0
@@ -140,8 +140,8 @@ def update_analytics()
     send_event('deskProClick', {current: deskProClicksTotal.to_i, status: 'fine'})
      ###DeskProButton Clicks yesterday
 
-    deskProClicks = analytics.get_ga_data(id = "ga:#{settings.gaprofileid}", start_data="yesterday", end_date="yesterday", metrics = "ga:uniqueEvents")
-
+    deskProClicks = analytics.get_ga_data(id = "ga:#{settings.gaprofileid}", start_data="yesterday", end_date="yesterday", metrics = "ga:uniqueEvents", filters: "ga:eventLabel==Get help with this page Submit")
+    
     deskProClicksTotal = 0
     if deskProClicks.total_results > 0
       deskProClicksTotal = deskProClicks.rows[0][0]

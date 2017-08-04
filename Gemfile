@@ -7,7 +7,7 @@ gem 'jira-ruby'
 
 gem 'nokogiri'
 
-gem 'google-api-client', '~> 0.9.1'
+gem 'google-api-client', '= 0.9.1'
 gem 'googleauth'
 gem 'pry'
 gem 'json'

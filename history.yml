@@ -1,32 +1,25 @@
 ---
-user-satisfaction-meter: "data: {\"current\":\"75%\",\"moreinfo\":\"15 to 21 May 2017\",\"status\":\"fine\",\"id\":\"user-satisfaction-meter\",\"updatedAt\":1501762850}\n\n"
-jira-days-left: "data: {\"title\":\"No sprint\",\"end\":\"2017-08-03T13:20:21+01:00\",\"id\":\"jira-days-left\",\"updatedAt\":1501762821}\n\n"
+user-satisfaction-meter: "data: {\"current\":\"75%\",\"moreinfo\":\"15 to 21 May 2017\",\"status\":\"fine\",\"id\":\"user-satisfaction-meter\",\"updatedAt\":1501845188}\n\n"
+jira-days-left: "data: {\"title\":\"No sprint\",\"end\":\"2017-08-04T12:13:09+01:00\",\"id\":\"jira-days-left\",\"updatedAt\":1501845189}\n\n"
+visitor_count_real_time: "data: {\"current\":903,\"status\":\"fine\",\"id\":\"visitor_count_real_time\",\"updatedAt\":1501845189}\n\n"
+successful_applications: "data: {\"current\":0,\"status\":\"fine\",\"id\":\"successful_applications\",\"updatedAt\":1501845189}\n\n"
 fandf-frontend-releases: "data: {\"result\":\"QA: 1.15.0\",\"timestamp\":\"Staging:
-  1.15.0\",\"duration\":\"Prod: 1.15.0\",\"id\":\"fandf-frontend-releases\",\"updatedAt\":1501762851}\n\n"
-p800-payments-sprint2: "data: {\"title\":\"Sprint Point Progress\",\"min\":0,\"value\":0,\"max\":100,\"moreinfo\":\"No
-  sprint currently in progress\",\"id\":\"p800-payments-sprint2\",\"updatedAt\":1501762851}\n\n"
-p800-payments-sprint: "data: {\"title\":\"Sprint Ticket Progress\",\"min\":0,\"value\":0,\"max\":100,\"moreinfo\":\"No
-  sprint currently in progress\",\"id\":\"p800-payments-sprint\",\"updatedAt\":1501762851}\n\n"
-p800-payments-open-tickets: "data: {\"title\":\"Tickets In Progress\",\"min\":0,\"value\":0,\"max\":100,\"moreinfo\":\"No
-  sprint currently in progress\",\"id\":\"p800-payments-open-tickets\",\"updatedAt\":1501762851}\n\n"
-p800-payments-qa: "data: {\"title\":\"Tickets In QA\",\"min\":0,\"value\":0,\"max\":100,\"moreinfo\":\"No
-  sprint currently in progress\",\"id\":\"p800-payments-qa\",\"updatedAt\":1501762852}\n\n"
+  1.15.0\",\"duration\":\"Prod: 1.15.0\",\"id\":\"fandf-frontend-releases\",\"updatedAt\":1501845210}\n\n"
+successful_applications_total: "data: {\"current\":25793,\"status\":\"fine\",\"id\":\"successful_applications_total\",\"updatedAt\":1501845190}\n\n"
+successful_coc: "data: {\"current\":0,\"status\":\"fine\",\"id\":\"successful_coc\",\"updatedAt\":1501845190}\n\n"
 pertax-frontend-releases: "data: {\"result\":\"QA: 1.256.2\",\"timestamp\":\"Staging:
-  1.256.2\",\"duration\":\"Prod: 1.256.2\",\"id\":\"pertax-frontend-releases\",\"updatedAt\":1501762852}\n\n"
+  1.256.2\",\"duration\":\"Prod: 1.256.2\",\"id\":\"pertax-frontend-releases\",\"updatedAt\":1501845211}\n\n"
+successful_coc_total: "data: {\"current\":41,\"status\":\"fine\",\"id\":\"successful_coc_total\",\"updatedAt\":1501845191}\n\n"
+session_count_total: "data: {\"current\":23577,\"status\":\"fine\",\"id\":\"session_count_total\",\"updatedAt\":1501845191}\n\n"
+sessions_per_user: "data: {\"current\":2,\"status\":\"fine\",\"id\":\"sessions_per_user\",\"updatedAt\":1501845192}\n\n"
 citizen-details-releases: "data: {\"result\":\"QA: 2.25.0\",\"timestamp\":\"Staging:
-  2.25.0\",\"duration\":\"Prod: 2.25.0\",\"id\":\"citizen-details-releases\",\"updatedAt\":1501762853}\n\n"
-feedback-survey-frontend-releases: "data: {\"result\":\"QA: 0.22.0\",\"timestamp\":\"Staging:
-  0.19.0\",\"duration\":\"Prod: 0.20.0\",\"id\":\"feedback-survey-frontend-releases\",\"updatedAt\":1501762854}\n\n"
-visitor_count_real_time!!: "data: {\"current\":1039,\"status\":\"fine\",\"id\":\"visitor_count_real_time!!\",\"updatedAt\":1501762850}\n\n"
-jenkins-fandf: "data: {\"result\":\"Status: SUCCESS (#24)\",\"timestamp\":\"Ran on:
-  27/04/2017 15:37 pm\",\"duration\":\"Duration: 11 mins\",\"status\":\"success\",\"id\":\"jenkins-fandf\",\"updatedAt\":1501762821}\n\n"
-jenkins-citizen-details: "data: {\"result\":\"Status: SUCCESS (#155)\",\"timestamp\":\"Ran
-  on: 01/08/2017 17:59 pm\",\"duration\":\"Duration: 5 mins\",\"status\":\"success\",\"id\":\"jenkins-citizen-details\",\"updatedAt\":1501762821}\n\n"
-jenkins-pertax-frontend: "data: {\"result\":\"Status: SUCCESS (#31)\",\"timestamp\":\"Ran
-  on: 26/07/2017 16:17 pm\",\"duration\":\"Duration: 4 mins\",\"status\":\"success\",\"id\":\"jenkins-pertax-frontend\",\"updatedAt\":1501762822}\n\n"
-jenkins-fandf-frontend: "data: {\"result\":\"Status: SUCCESS (#24)\",\"timestamp\":\"Ran
-  on: 27/04/2017 15:37 pm\",\"duration\":\"Duration: 11 mins\",\"status\":\"success\",\"id\":\"jenkins-fandf-frontend\",\"updatedAt\":1501762823}\n\n"
-jenkins-fandf-acceptance-tests: "data: {\"result\":\"Status: SUCCESS (#14)\",\"timestamp\":\"Ran
-  on: 21/06/2017 15:47 pm\",\"duration\":\"Duration: 10 mins\",\"status\":\"success\",\"id\":\"jenkins-fandf-acceptance-tests\",\"updatedAt\":1501762824}\n\n"
-jenkins-pertax-acceptance-tests: "data: {\"result\":\"Status: SUCCESS (#900)\",\"timestamp\":\"Ran
-  on: 26/07/2017 16:28 pm\",\"duration\":\"Duration: 17 mins\",\"status\":\"success\",\"id\":\"jenkins-pertax-acceptance-tests\",\"updatedAt\":1501762824}\n\n"
+  2.25.0\",\"duration\":\"Prod: 2.25.0\",\"id\":\"citizen-details-releases\",\"updatedAt\":1501845213}\n\n"
+TotalAddressChange: "data: {\"current\":541,\"status\":\"fine\",\"id\":\"TotalAddressChange\",\"updatedAt\":1501845192}\n\n"
+TotalAddressChangeYesterday: "data: {\"current\":1884,\"status\":\"fine\",\"id\":\"TotalAddressChangeYesterday\",\"updatedAt\":1501845193}\n\n"
+feedback-survey-frontend-releases: "data: {\"result\":\"QA: 0.20.1\",\"timestamp\":\"Staging:
+  0.19.0\",\"duration\":\"Prod: 0.20.1\",\"id\":\"feedback-survey-frontend-releases\",\"updatedAt\":1501845203}\n\n"
+deskProClick: "data: {\"current\":54,\"status\":\"fine\",\"id\":\"deskProClick\",\"updatedAt\":1501845193}\n\n"
+deskProClickYesterday: "data: {\"current\":213,\"status\":\"fine\",\"id\":\"deskProClickYesterday\",\"updatedAt\":1501845193}\n\n"
+session_avg: "data: {\"current\":\"08:25\",\"status\":\"fine\",\"id\":\"session_avg\",\"updatedAt\":1501845194}\n\n"
+percentage: "data: {\"current\":\"27.8%\",\"status\":\"fine\",\"id\":\"percentage\",\"updatedAt\":1501845194}\n\n"
+percentage_new_users: "data: {\"current\":\"25.8%\",\"status\":\"fine\",\"id\":\"percentage_new_users\",\"updatedAt\":1501845195}\n\n"
