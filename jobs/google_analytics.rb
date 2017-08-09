@@ -21,10 +21,11 @@ class Analytics
       return analytics
   end
 end
+# update_analytics()
 
 
-# Start the scheduler
-SCHEDULER.every '3000s', :first_in => 0 do |dashing_job|
+# # Start the scheduler
+SCHEDULER.every '3600s', :first_in => 0 do |dashing_job|
   update_analytics()
 end
 
@@ -33,18 +34,18 @@ def update_analytics()
 
    begin
     
-    ### Real Time
-    # Execute the query
-    visits = analytics.get_realtime_data(ids = "ga:#{settings.gaprofileid}", metrics = "ga:activeVisitors")
+    # ### Real Time
+    # # Execute the query
+    # visits = analytics.get_realtime_data(ids = "ga:#{settings.gaprofileid}", metrics = "ga:activeVisitors")
 
-    visitorCount = 0
+    # visitorCount = 0
 
-    if visits.total_results > 0 
-      visitorCount = visits.rows[0][0]  
-    end
+    # if visits.total_results > 0 
+    #   visitorCount = visits.rows[0][0]  
+    # end
 
-    # Update the dashboard
-    send_event('visitor_count_real_time', {current: visitorCount.to_i, status: 'fine'})
+    # # Update the dashboard
+    # send_event('visitor_count_real_time', {current: visitorCount.to_i, status: 'fine'})
 
     ### application journey today
        totalVisits = analytics.get_ga_data(id = "ga:#{settings.gaprofileid}", start_date="today", end_date="today",  metrics = "ga:goal13completions")
@@ -190,5 +191,28 @@ def update_analytics()
     send_event('percentage_new_users', {current: percentageString, status: 'fine'})
        
   end
+  # # Start the scheduler
+SCHEDULER.every '10s', :first_in => 0 do |dashing_job|
+  update_analytics_Active()
+end
+def update_analytics_Active()
+  analytics = Analytics.letsgo
 
+   begin
+    
+    ### Real Time
+    # Execute the query
+    visits = analytics.get_realtime_data(ids = "ga:#{settings.gaprofileid}", metrics = "ga:activeVisitors")
+
+    visitorCount = 0
+
+    if visits.total_results > 0 
+      visitorCount = visits.rows[0][0]  
+    end
+
+    # Update the dashboard
+    send_event('visitor_count_real_time', {current: visitorCount.to_i, status: 'fine'})
+
+end
+end
 end
