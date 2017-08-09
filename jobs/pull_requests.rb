@@ -18,7 +18,7 @@ def getPRs(repos)
   enterprise_username = 'zach.hall'
   enterprise_token = 'fbb0a0fdc46d8c39aabe73a08a19658e86fd1541'
   open_username = 'zachhall1234'
-  open_token = '4029a7c86c9f9c2d2cf235532d360f050af083c0'
+  open_token = '17d64997a36cf216703174755fac211df7de9c8b'
 
   repos.each do |repo|
     url = repo.is_enterprise ? "https://github.tools.tax.service.gov.uk/api/v3" : "https://api.github.com"
@@ -64,7 +64,7 @@ SCHEDULER.every '5s', :first_in => 0 do |dashing_job|
     Repo.new("hmrc", "pertax-acceptance-tests", true),
     Repo.new("hmrc", "feedback-survey-frontend", false),
     Repo.new("hmrc", "fandf-frontend", true),
-    Repo.new("hmrc", "citizen-details", true)
+    Repo.new("hmrc", "citizen-details", true),
     # Repo.new("zachhall1234", "pertax-frontend", false)
   ])
 end
