@@ -24,7 +24,7 @@ end
 
 
 # Start the scheduler
-SCHEDULER.every '30s', :first_in => 0 do |dashing_job|
+SCHEDULER.every '3000s', :first_in => 0 do |dashing_job|
   update_analytics()
 end
 
