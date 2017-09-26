@@ -27,7 +27,7 @@ GaCallsCount = 0
 # # Start the scheduler
 SCHEDULER.every '3600s', :first_in => 0 do |dashing_job|
   update_analytics()
-  GaCallsCount = GaCallsCount + 7
+  GaCallsCount = GaCallsCount
 end
 
 def update_analytics()
@@ -88,7 +88,7 @@ def update_analytics()
   end
 
   # Start the scheduler for real time GA events
-  SCHEDULER.every '10s', :first_in => 0 do |dashing_job|
+  SCHEDULER.every '60s', :first_in => 0 do |dashing_job|
   update_analytics_Active()
 end
 
