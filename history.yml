@@ -1,30 +1,18 @@
 ---
-user-satisfaction-meter: "data: {\"current\":\"75%\",\"moreinfo\":\"15 to 21 May 2017\",\"status\":\"fine\",\"id\":\"user-satisfaction-meter\",\"updatedAt\":1505816086}\n\n"
-session_count_total: "data: {\"current\":7530,\"status\":\"fine\",\"id\":\"session_count_total\",\"updatedAt\":1505813386}\n\n"
-jira-days-left: "data: {\"title\":\"No sprint\",\"end\":\"2017-09-19T11:14:46+01:00\",\"id\":\"jira-days-left\",\"updatedAt\":1505816086}\n\n"
-TotalAddressChange: "data: {\"current\":127,\"status\":\"fine\",\"id\":\"TotalAddressChange\",\"updatedAt\":1505813386}\n\n"
-pull_requests: "data: {\"items\":[],\"id\":\"pull_requests\",\"updatedAt\":1505816097}\n\n"
-TotalAddressChangeYesterday: "data: {\"current\":1708,\"status\":\"fine\",\"id\":\"TotalAddressChangeYesterday\",\"updatedAt\":1505813387}\n\n"
-deskProClick: "data: {\"current\":20,\"status\":\"fine\",\"id\":\"deskProClick\",\"updatedAt\":1505813387}\n\n"
-deskProClickYesterday: "data: {\"current\":266,\"status\":\"fine\",\"id\":\"deskProClickYesterday\",\"updatedAt\":1505813388}\n\n"
-visitor_count_real_time: "data: {\"current\":688,\"status\":\"fine\",\"id\":\"visitor_count_real_time\",\"updatedAt\":1505816094}\n\n"
-fandf-frontend-releases: "data: {\"result\":\"QA: \",\"timestamp\":\"Staging: \",\"duration\":\"Prod:
-  \",\"id\":\"fandf-frontend-releases\",\"updatedAt\":1505816097}\n\n"
-pertax-frontend-releases: "data: {\"result\":\"QA: \",\"timestamp\":\"Staging: \",\"duration\":\"Prod:
-  \",\"id\":\"pertax-frontend-releases\",\"updatedAt\":1505816088}\n\n"
+session_count_total: "data: {\"current\":20735,\"status\":\"fine\",\"id\":\"session_count_total\",\"updatedAt\":1507113319}\n\n"
+jira-days-left: "data: {\"title\":\"No sprint\",\"end\":\"2017-10-04T11:36:19+01:00\",\"id\":\"jira-days-left\",\"updatedAt\":1507113379}\n\n"
+TotalAddressChange: "data: {\"current\":390,\"status\":\"fine\",\"id\":\"TotalAddressChange\",\"updatedAt\":1507113320}\n\n"
+TotalAddressChangeYesterday: "data: {\"current\":1602,\"status\":\"fine\",\"id\":\"TotalAddressChangeYesterday\",\"updatedAt\":1507113320}\n\n"
+fandf-frontend-releases: "data: {\"result\":\"QA: 1.15.0\",\"timestamp\":\"Staging:
+  1.16.0\",\"duration\":\"Prod: 1.16.0\",\"id\":\"fandf-frontend-releases\",\"updatedAt\":1507113411}\n\n"
+deskProClick: "data: {\"current\":70,\"status\":\"fine\",\"id\":\"deskProClick\",\"updatedAt\":1507113321}\n\n"
+pull_requests: "data: {\"items\":[],\"id\":\"pull_requests\",\"updatedAt\":1507113416}\n\n"
+deskProClickYesterday: "data: {\"current\":678,\"status\":\"fine\",\"id\":\"deskProClickYesterday\",\"updatedAt\":1507113322}\n\n"
+pertax-frontend-releases: "data: {\"result\":\"QA: 1.272.0\",\"timestamp\":\"Staging:
+  1.271.0\",\"duration\":\"Prod: 1.271.0\",\"id\":\"pertax-frontend-releases\",\"updatedAt\":1507113414}\n\n"
+visitor_count_real_time: "data: {\"current\":926,\"status\":\"fine\",\"id\":\"visitor_count_real_time\",\"updatedAt\":1507113382}\n\n"
 citizen-details-releases: "data: {\"result\":\"QA: 2.25.0\",\"timestamp\":\"Staging:
-  \",\"duration\":\"Prod: \",\"id\":\"citizen-details-releases\",\"updatedAt\":1505816089}\n\n"
-feedback-survey-frontend-releases: "data: {\"result\":\"QA: \",\"timestamp\":\"Staging:
-  \",\"duration\":\"Prod: \",\"id\":\"feedback-survey-frontend-releases\",\"updatedAt\":1505816091}\n\n"
-jenkins-fandf: "data: {\"result\":\"Status: FAILURE (#25)\",\"timestamp\":\"Ran on:
-  18/09/2017 16:16 pm\",\"duration\":\"Duration: 10 mins\",\"status\":\"failure\",\"id\":\"jenkins-fandf\",\"updatedAt\":1505816086}\n\n"
-jenkins-citizen-details: "data: {\"result\":\"Status: SUCCESS (#156)\",\"timestamp\":\"Ran
-  on: 01/09/2017 17:59 pm\",\"duration\":\"Duration: 5 mins\",\"status\":\"success\",\"id\":\"jenkins-citizen-details\",\"updatedAt\":1505816087}\n\n"
-jenkins-pertax-frontend: "data: {\"result\":\"Status: SUCCESS (#76)\",\"timestamp\":\"Ran
-  on: 18/09/2017 16:17 pm\",\"duration\":\"Duration: 5 mins\",\"status\":\"success\",\"id\":\"jenkins-pertax-frontend\",\"updatedAt\":1505816088}\n\n"
-jenkins-fandf-frontend: "data: {\"result\":\"Status: FAILURE (#25)\",\"timestamp\":\"Ran
-  on: 18/09/2017 16:16 pm\",\"duration\":\"Duration: 10 mins\",\"status\":\"failure\",\"id\":\"jenkins-fandf-frontend\",\"updatedAt\":1505816088}\n\n"
-jenkins-fandf-acceptance-tests: "data: {\"result\":\"Status: SUCCESS (#14)\",\"timestamp\":\"Ran
-  on: 21/06/2017 15:47 pm\",\"duration\":\"Duration: 10 mins\",\"status\":\"success\",\"id\":\"jenkins-fandf-acceptance-tests\",\"updatedAt\":1505816089}\n\n"
-jenkins-pertax-acceptance-tests: "data: {\"result\":\"Status: SUCCESS (#1008)\",\"timestamp\":\"Ran
-  on: 19/09/2017 09:25 am\",\"duration\":\"Duration: 18 mins\",\"status\":\"success\",\"id\":\"jenkins-pertax-acceptance-tests\",\"updatedAt\":1505816090}\n\n"
+  2.25.0\",\"duration\":\"Prod: 2.25.0\",\"id\":\"citizen-details-releases\",\"updatedAt\":1507113415}\n\n"
+feedback-survey-frontend-releases: "data: {\"result\":\"QA: 0.25.0\",\"timestamp\":\"Staging:
+  \",\"duration\":\"Prod: 0.26.0\",\"id\":\"feedback-survey-frontend-releases\",\"updatedAt\":1507113404}\n\n"
+user-satisfaction-meter: "data: {\"current\":\"75%\",\"moreinfo\":\"15 to 21 May 2017\",\"status\":\"fine\",\"id\":\"user-satisfaction-meter\",\"updatedAt\":1507113409}\n\n"
