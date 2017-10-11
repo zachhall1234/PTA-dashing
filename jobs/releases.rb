@@ -18,7 +18,7 @@ def send_releases_event(event_name, service_name)
 
   qa = page.xpath(".//*[@id='running_apps']/tbody/tr[./td/text()='%s']/td[2]" % service_name).text
   staging = page.xpath(".//*[@id='running_apps']/tbody/tr[./td/text()='%s']/td[5]" % service_name).text
-  prod = page.xpath(".//*[@id='running_apps']/tbody/tr[./td/text()='%s']/td[10]" % service_name).text
+  prod = page.xpath(".//*[@id='running_apps']/tbody/tr[./td/text()='%s']/td[7]" % service_name).text
   
   send_event(event_name, 
     { 
@@ -27,4 +27,4 @@ def send_releases_event(event_name, service_name)
       duration: "Prod: %s" % prod
     }
   )
-end
+end 
