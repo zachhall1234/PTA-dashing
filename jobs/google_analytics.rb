@@ -75,7 +75,8 @@ def update_analytics()
       deskProClicksTotal = deskProClicks.rows[0][0]
     end
     send_event('deskProClick', {current: deskProClicksTotal.to_i, status: 'fine'})
-     ###DeskProButton Clicks yesterday
+    
+    ###DeskProButton Clicks Yesterday
 
     deskProClicks = analytics.get_ga_data(id = "ga:#{settings.gaprofileid}", start_data="yesterday", end_date="yesterday", metrics = "ga:uniqueEvents", filters: "ga:eventLabel==Get help with this page Submit")
     
@@ -84,7 +85,51 @@ def update_analytics()
       deskProClicksTotal = deskProClicks.rows[0][0]
     end
     send_event('deskProClickYesterday', {current: deskProClicksTotal.to_i, status: 'fine'})
+
+    ### TOTAL AMBIGUOUS SESSIONS YESTERDAY
+       
+    ambiguousSessionsYesterday = analytics.get_ga_data(id = "ga:#{settings.gaprofileid}", start_date="yesterday", end_date="yesterday",  metrics = "ga:uniquepageviews", filters: "ga:pagepath==/personal-account/self-assessment")
     
+    ambiguousSessionsYesterdayCount = 0
+    if ambiguousSessionsYesterday.total_results > 0
+       ambiguousSessionsYesterdayCount = ambiguousSessionsYesterday.rows[0][0]
+    end    
+
+    send_event('AmbiguousSessionsYesterday', {current: ambiguousSessionsYesterdayCount.to_i, status: 'fine'})
+
+    ### TOTAL AMBIGUOUS SESSIONS TODAY
+       
+    ambiguousSessionsToday = analytics.get_ga_data(id = "ga:#{settings.gaprofileid}", start_date="today", end_date="today",  metrics = "ga:uniquepageviews", filters: "ga:pagepath==/personal-account/self-assessment")
+    
+    ambiguousSessionsTodaydayCount = 0
+    if ambiguousSessionsToday.total_results > 0
+       ambiguousSessionsTodayCount = ambiguousSessionsToday.rows[0][0]
+    end    
+
+    send_event('AmbiguousSessionsToday', {current: ambiguousSessionsTodayCount.to_i, status: 'fine'})
+
+    ### TOTAL SA FILE CLICKS YESTERDAY
+       
+    saFileClicksYesterday = analytics.get_ga_data(id = "ga:#{settings.gaprofileid}", start_date="yesterday", end_date="yesterday",  metrics = "ga:uniqueevents", filters: "ga:eventlabel==Complete 2016 to 2017 tax return")
+    
+    saFileClicksYesterdayCount = 0
+    if saFileClicksYesterday.total_results > 0
+       saFileClicksYesterdayCount = saFileClicksYesterday.rows[0][0]
+    end    
+
+    send_event('saFileClicksYesterday', {current: saFileClicksYesterdayCount.to_i, status: 'fine'})
+
+    ### TOTAL SA FILE CLICKS TODAY
+       
+    saFileClicksToday = analytics.get_ga_data(id = "ga:#{settings.gaprofileid}", start_date="today", end_date="today",  metrics = "ga:uniqueevents", filters: "ga:eventlabel==Complete 2016 to 2017 tax return")
+    
+    saFileClicksTodayCount = 0
+    if saFileClicksToday.total_results > 0
+       saFileClicksTodayCount = saFileClicksToday.rows[0][0]
+    end    
+
+    send_event('saFileClicksToday', {current: saFileClicksTodayCount.to_i, status: 'fine'})
+  
   end
 
   # Start the scheduler for real time GA events
@@ -97,7 +142,7 @@ def update_analytics_Active()
 
    begin
     
-    ### Real Time
+    ### Real Time Active Users
     visits = analytics.get_realtime_data(ids = "ga:#{settings.gaprofileid}", metrics = "ga:activeVisitors")
 
     visitorCount = 0
