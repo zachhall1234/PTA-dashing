@@ -92,6 +92,9 @@ img {
 
 img, object {
   max-width: 100%;
+  transform: rotate(90deg);
+  width: 502px;
+  height: auto;
 }
 
 iframe {

@@ -20,7 +20,7 @@ SCHEDULER.every '60s', :first_in => 0 do |dashing_job|
   doJenkinsUpdate("jenkins-staging-healthcheck",settings.jenkinsperf.chomp('/'),'tcs-health-check')
   doJenkinsUpdate("jenkins-dev-healthcheck",settings.jenkinsdev.chomp('/'),'tcs-health-check-dev')
   doJenkinsUpdate("jenkins-qa-healthcheck",settings.jenkinsqa.chomp('/'),'tcs-smoke-tests-qa')
-
+  doJenkinsUpdate("jenkins-frontend-template-provider",settings.jenkinsopen.chomp('/'), 'frontend-template-provider')
 end
 
 def doJenkinsUpdate(event_name, jenkins_url, job_name)
