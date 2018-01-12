@@ -1,20 +1,25 @@
 ---
-user-satisfaction-meter: "data: {\"current\":\"0%\",\"moreinfo\":\"16 to 22 Oct 2017\",\"status\":\"fine\",\"id\":\"user-satisfaction-meter\",\"updatedAt\":1515685401}\n\n"
-session_count_total: "data: {\"current\":52717,\"status\":\"fine\",\"id\":\"session_count_total\",\"updatedAt\":1515685342}\n\n"
-jira-days-left: "data: {\"title\":\"No sprint\",\"end\":\"2018-01-11T15:43:22+00:00\",\"id\":\"jira-days-left\",\"updatedAt\":1515685402}\n\n"
-TotalAddressChange: "data: {\"current\":706,\"status\":\"fine\",\"id\":\"TotalAddressChange\",\"updatedAt\":1515685343}\n\n"
+user-satisfaction-meter: "data: {\"current\":\"0%\",\"moreinfo\":\"16 to 22 Oct 2017\",\"status\":\"fine\",\"id\":\"user-satisfaction-meter\",\"updatedAt\":1515759019}\n\n"
+session_count_total: "data: {\"current\":17484,\"status\":\"fine\",\"id\":\"session_count_total\",\"updatedAt\":1515758989}\n\n"
+jira-days-left: "data: {\"title\":\"No sprint\",\"end\":\"2018-01-12T12:09:49+00:00\",\"id\":\"jira-days-left\",\"updatedAt\":1515758989}\n\n"
+TotalAddressChange: "data: {\"current\":210,\"status\":\"fine\",\"id\":\"TotalAddressChange\",\"updatedAt\":1515758990}\n\n"
+TotalAddressChangeYesterday: "data: {\"current\":1497,\"status\":\"fine\",\"id\":\"TotalAddressChangeYesterday\",\"updatedAt\":1515758990}\n\n"
 fandf-frontend-releases: "data: {\"result\":\"QA: 1.21.0\",\"timestamp\":\"Staging:
-  1.21.0\",\"duration\":\"Prod: 1.18.0\",\"id\":\"fandf-frontend-releases\",\"updatedAt\":1515685393}\n\n"
-TotalAddressChangeYesterday: "data: {\"current\":1727,\"status\":\"fine\",\"id\":\"TotalAddressChangeYesterday\",\"updatedAt\":1515685343}\n\n"
-deskProClick: "data: {\"current\":160,\"status\":\"fine\",\"id\":\"deskProClick\",\"updatedAt\":1515685344}\n\n"
-pull_requests: "data: {\"items\":[{\"repo_name\":\"pertax-frontend\",\"user_name\":\"Andrew
-  Gee\",\"title\":\"Add missing header error message from postcode search page\",\"created_at\":\"2017-12-21T15:30:45Z\"}],\"id\":\"pull_requests\",\"updatedAt\":1515685399}\n\n"
-deskProClickYesterday: "data: {\"current\":357,\"status\":\"fine\",\"id\":\"deskProClickYesterday\",\"updatedAt\":1515685344}\n\n"
-pertax-frontend-releases: "data: {\"result\":\"QA: 1.287.0\",\"timestamp\":\"Staging:
-  1.287.0\",\"duration\":\"Prod: 1.287.0\",\"id\":\"pertax-frontend-releases\",\"updatedAt\":1515685395}\n\n"
+  1.21.0\",\"duration\":\"Prod: 1.18.0\",\"id\":\"fandf-frontend-releases\",\"updatedAt\":1515759020}\n\n"
+deskProClick: "data: {\"current\":41,\"status\":\"fine\",\"id\":\"deskProClick\",\"updatedAt\":1515758991}\n\n"
+deskProClickYesterday: "data: {\"current\":315,\"status\":\"fine\",\"id\":\"deskProClickYesterday\",\"updatedAt\":1515758991}\n\n"
+pull_requests: "data: {\"items\":[{\"repo_name\":\"pertax-frontend\",\"user_name\":\"Richard
+  James Bacon\",\"title\":\"MTA-2748 changed date formatting for homepage card output
+  for SA tax …\",\"created_at\":\"2018-01-12T11:35:16Z\"},{\"repo_name\":\"pertax-frontend\",\"user_name\":\"Andrew
+  Gee\",\"title\":\"Add missing header error message from postcode search page\",\"created_at\":\"2017-12-21T15:30:45Z\"}],\"id\":\"pull_requests\",\"updatedAt\":1515759021}\n\n"
+AmbiguousSessionsYesterday: "data: {\"current\":7255,\"status\":\"fine\",\"id\":\"AmbiguousSessionsYesterday\",\"updatedAt\":1515758991}\n\n"
+AmbiguousSessionsToday: "data: {\"current\":1042,\"status\":\"fine\",\"id\":\"AmbiguousSessionsToday\",\"updatedAt\":1515758992}\n\n"
+pertax-frontend-releases: "data: {\"result\":\"QA: 1.288.0\",\"timestamp\":\"Staging:
+  1.287.0\",\"duration\":\"Prod: 1.287.0\",\"id\":\"pertax-frontend-releases\",\"updatedAt\":1515759022}\n\n"
+saFileClicksYesterday: "data: {\"current\":21802,\"status\":\"fine\",\"id\":\"saFileClicksYesterday\",\"updatedAt\":1515758992}\n\n"
+saFileClicksToday: "data: {\"current\":3101,\"status\":\"fine\",\"id\":\"saFileClicksToday\",\"updatedAt\":1515758993}\n\n"
+visitor_count_real_time: "data: {\"current\":1262,\"status\":\"fine\",\"id\":\"visitor_count_real_time\",\"updatedAt\":1515758993}\n\n"
 frontend-template-provider-releases: "data: {\"result\":\"QA: 0.22.0\",\"timestamp\":\"Staging:
-  0.22.0\",\"duration\":\"Prod: 0.20.0\",\"id\":\"frontend-template-provider-releases\",\"updatedAt\":1515685396}\n\n"
+  0.22.0\",\"duration\":\"Prod: 0.20.0\",\"id\":\"frontend-template-provider-releases\",\"updatedAt\":1515759024}\n\n"
 feedback-survey-frontend-releases: "data: {\"result\":\"QA: 0.34.0\",\"timestamp\":\"Staging:
-  0.34.0\",\"duration\":\"Prod: 0.34.0\",\"id\":\"feedback-survey-frontend-releases\",\"updatedAt\":1515685398}\n\n"
-jenkins-fandf: "data: {\"result\":\"Status: SUCCESS (#45)\",\"timestamp\":\"Ran on:
-  12/12/2017 11:33 am\",\"duration\":\"Duration: 4 mins\",\"status\":\"success\",\"id\":\"jenkins-fandf\",\"updatedAt\":1515685402}\n\n"
+  0.34.0\",\"duration\":\"Prod: 0.34.0\",\"id\":\"feedback-survey-frontend-releases\",\"updatedAt\":1515759025}\n\n"

@@ -36,7 +36,7 @@ def update_analytics()
 
     ### TOTAL SESSIONS
        
-    totalVisits = analytics.get_ga_data(id = "ga:#{settings.gaprofileid}", start_date="today", end_date="today",  metrics = "ga:sessions")
+    totalVisits = analytics.get_ga_data(id = "ga:#{settings.gaprofileid}", start_date="today", end_date="today",  metrics = "ga:goal5completions")
     
     totalVisitsCount = 0
     if totalVisits.total_results > 0
